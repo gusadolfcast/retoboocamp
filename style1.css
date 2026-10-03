@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121212;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    padding: 40px 10px;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1{
+    color: aqua;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p{
+    color: white;
+    font-size: 16px;
+}
+
+nav{
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover{
+    color: blueviolet;
+}
+
+main{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+section{
+    background-color: #1a1a1a;
+    border: 1px solid aquamarine;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+}
+
+section h2{
+    color: aqua;
+    margin-bottom: 15px;
+}
+
+section p{
+    color: white;
+    margin-bottom: 20px;
+}
+
+section button{
+    background-color: aqua;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #1a1a1a;
+}

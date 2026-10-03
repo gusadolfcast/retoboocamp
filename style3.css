@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+header{
+    width: 100%;
+    padding: 15px;
+    background-color: lightblue;
+}
+
+header h1{
+    color: black;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+header p{
+    color: black;
+    font-size: 13px;
+}
+
+nav{
+    width: 100%;
+    padding: 10px 15px;
+    background-color: navy;
+    display: flex;
+    gap: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+nav a:hover{
+    color: lightblue;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+section h2{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+section p{
+    color: black;
+    margin-bottom: 10px;
+}
+
+section button{
+    background-color: blue;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+section button:hover{
+    background-color: navy;
+}
+
+footer{
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    background-color: lightgray;
+}

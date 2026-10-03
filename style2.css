@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    padding: 40px 10px;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p{
+    color: #cccccc;
+    font-size: 16px;
+}
+
+nav{
+    width: 100%;
+    padding: 20px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover{
+    color: aqua;
+}
+
+main{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+section{
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+}
+
+section h2{
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+
+section p{
+    color: #444444;
+    margin-bottom: 20px;
+}
+
+section button{
+    background-color: #1a1a1a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section button:hover{
+    background-color: #333333;
+}
+
+footer{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #1a1a1a;
+}
